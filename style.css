@@ -1,0 +1,282 @@
+* 
+{
+  padding: 0; 
+  margin: 0;  
+  color: inherit;
+  text-decoration: inherit;
+  border: 0;
+}
+
+li {
+  list-style: none; 
+}
+
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: #323232;
+  text-align: center;
+}
+
+nav li a {  
+  color: white;
+  text-align: justify;
+}
+
+nav li {   
+  display: inline-block;
+  font-size:  7.21379pt;
+  font-family: 'Lato', sans-serif;
+}
+
+.navi {  
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.about {
+  margin-right: 40px;
+  margin-left: 25px;
+}
+
+.blog {
+  margin-right: 25px;
+  margin-left: 40px;
+}
+
+nav li a:hover {
+  color: #2eac93;
+}
+
+img.navi {
+  margin-top: 10px;
+}
+
+/* -----------hex------------- */
+
+.hex {
+  margin:0 auto;
+  height: 720px;
+  width: 1020px;
+}
+
+.layer-1 {
+  height: 209px;
+  width: 182px;
+  margin: 9px;
+  transform: rotate(120deg);
+  overflow: hidden;
+  visibility: hidden;
+  display: inline-block;
+  hov
+}
+
+.layer-2 {
+  visibility: hidden;
+  height: 209px;
+  width: 182px;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.layer-3 {
+  overflow: hidden;
+  height: 209px;
+  width: 182px;
+  transform: rotate(-60deg);
+  background-image: url('../Hexal/assets/Layer\ 33@4X.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  visibility: visible;
+}
+
+.row-1 {
+  display: inline-block;
+  position: relative;
+  top: 80px;
+  left: 105px;
+}
+
+.row-2 {
+  display: inline-block;
+  position: relative;
+  top: 22px;
+  left: 3px;
+}
+
+.row-3 {
+  display: inline-block;
+  position: relative;
+  top: -36px;
+  left: 105px;
+}
+#img1-1 {
+  background-image: url('../Hexal/assets/Layer\ 33@4X.png');;
+ }
+ #img1-2 {
+  background-image: url('../Hexal/assets/Layer\ 31@1X.png');
+ }
+ #img1-3 {
+  background-image: url('../Hexal/assets/Layer\ 34@1X.png');
+ }
+ #img1-4 {
+  background-image: url('../Hexal/assets/Layer\ 35@1X.png');
+ }
+
+ #img2-1 {
+  background-image: url('../Hexal/assets/Layer\ 36@1X.png');;
+ }
+ #img2-2 {
+  background-image: url('../Hexal/assets/Layer\ 44@1X.png');
+ }
+ #img2-3 {
+  background-image: url('../Hexal/assets/Layer\ 37@1X.png');
+ }
+ #img2-4 {
+  background-image: url('../Hexal/assets/Layer\ 38@1X.png');
+ }
+ #img2-5 {
+  background-image: url('../Hexal/assets/Layer\ 39@1X.png');
+ }
+
+ #img3-1 {
+  background-image: url('../Hexal/assets/Layer\ 40@1X.png');;
+ }
+ #img3-2 {
+  background-image: url('../Hexal/assets/Layer\ 41@1X.png');
+ }
+ #img3-3 {
+  background-image: url('../Hexal/assets/Layer\ 43@1X.png');
+ }
+ #img3-4 {
+  background-image: url('../Hexal/assets/Layer\ 42@1X.png');
+ }
+
+/*--------------------------------sam--------------------------------*/
+
+
+
+.sam {
+  background: #2eb398;
+  margin:0 auto;
+  height: 340px;
+  width: 1020px;
+  align-items: center;
+  display: flex; 
+  justify-content: center;
+}
+
+#img-sam {
+  background-image: url('../Hexal/assets/Image@1X.png');
+ }
+
+article .layer-1{
+  margin: 0 20px 0;
+}
+
+.sam-l {
+  width: auto;
+}
+.sam-r {
+  width: 580px;
+}
+
+.anderson {
+  align-items: center;
+  display: flex; 
+  justify-content: center;
+}
+
+.p1{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 30pt;
+  color: rgba(215, 252, 245, 255);
+  text-align: justify;
+}
+
+.p2{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 18pt;
+  color: rgba(32, 129, 109, 255);
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.p3{
+  font-family: 'Lato', sans-serif;
+  font-size: 12pt;
+  color: rgba(215, 252, 245, 255);
+  text-align: justify;
+}
+
+/*---------------footer-------------*/
+
+footer{
+  margin:0 auto;
+  height: 605px;
+  width: 1020px;
+  background-color: #323232;
+  display: flex;
+  flex-direction: column;
+}
+
+.get-in{
+  margin-top: 70px;
+  margin-left: 120px;
+  display: block;
+}
+
+.foot-p1{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 30pt;
+  color: rgba(224, 224, 224, 255);
+  text-align: justify;
+}
+
+.foot-p2{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 18pt;
+  color: rgba(190, 190, 190, 255);
+  text-align: justify;
+}
+
+form{
+  display: flex;
+  width: 580px;
+  height: 380px;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+input{
+  background: #454545;
+  display: flex;
+  flex-direction: column;
+  width: 580px;
+  height: 38px;
+  margin-bottom: 16px;
+}
+
+textarea{
+  width: 580px;
+  border: 0px;
+  background: #454545;
+}
+
+.end{
+  background: #222222;
+  display: flex;
+  height: 43px;
+  position: relative;
+  top: 16px; 
+  align-items: center;
+}
+
+.p-end{
+  font-family: 'Maven Pro', sans-serif;
+  margin-left: 40px;
+  font-size: 8.65655pt;
+  color: rgba(69, 69, 69, 255);
+  text-align: justify;
+}
