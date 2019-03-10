@@ -19,6 +19,21 @@ header {
   text-align: center;
 }
 
+nav{
+  position: relative;
+  z-index: 2;
+}
+
+.hed-t{
+  z-index: 1;
+  position: relative;
+  top:-197px;
+}
+
+#hed-t{
+  background: #323232;
+}
+
 nav li a {  
   color: white;
   text-align: justify;
@@ -69,7 +84,6 @@ img.navi {
   overflow: hidden;
   visibility: hidden;
   display: inline-block;
-  hov
 }
 
 .layer-2 {
@@ -259,6 +273,7 @@ input{
 }
 
 textarea{
+  height: 150px;
   width: 580px;
   border: 0px;
   background: #454545;
